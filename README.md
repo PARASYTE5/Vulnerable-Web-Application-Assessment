@@ -2,17 +2,16 @@
 
 ## Overview
 
-This project focuses on understanding web application security testing using Burp Suite and DVWA (Damn Vulnerable Web Application) in a controlled lab environment. The objective was to analyze web application traffic, inspect requests and responses, understand session management mechanisms, and gain practical exposure to web security assessment techniques.
+This project focuses on understanding web application security testing using Burp Suite, DVWA (Damn Vulnerable Web Application) and Altoro Mutual in a controlled lab environment. The objective was to analyze web application traffic, inspect requests and responses, understand session management mechanisms, and gain practical exposure to web security assessment techniques.
 
-Burp Suite was used as an intercepting proxy to capture and analyze HTTP/HTTPS traffic between the browser and the web application. The project provided hands-on experience with request inspection, parameter analysis, session handling, and web application communication.
+Burp Suite was used as an intercepting proxy to capture and analyze HTTP/HTTPS traffic between the browser and the web application. The project provided hands-on experience with request inspection, session handling, and web application communication.
 
 ---
 
 ## Objectives
 
-- Understand web application communication.
 - Intercept and analyze HTTP/HTTPS traffic.
-- Examine request parameters, headers, and cookies.
+- Examine cookies.
 - Study session management mechanisms.
 - Gain practical exposure to web application security testing.
 - Develop documentation and reporting skills.
@@ -27,10 +26,11 @@ Burp Suite was used as an intercepting proxy to capture and analyze HTTP/HTTPS t
 
 ## Tools Used
 
-- Burp Suite
+- Burp Suite Professional Edition
 - DVWA (Damn Vulnerable Web Application)
 - Firefox Browser
 - Linux Terminal
+- Foxy Proxy
 
 ---
 
@@ -59,11 +59,6 @@ Burp Suite was used as an intercepting proxy to capture and analyze HTTP/HTTPS t
 - Investigated session cookies and authentication mechanisms.
 - Observed how sessions are maintained within web applications.
 
-### Request Modification
-
-- Used Burp Suite Repeater to modify and resend requests.
-- Analyzed application behavior under different inputs.
-- Documented observations and findings.
 
 ---
 
@@ -72,7 +67,6 @@ Burp Suite was used as an intercepting proxy to capture and analyze HTTP/HTTPS t
 
 - Web applications communicate through structured HTTP/HTTPS requests and responses.
 - Session cookies play an important role in authentication and user tracking.
-- Request parameters can significantly affect application behavior.
 - Traffic interception provides visibility into application functionality.
 - Proper security testing helps identify potential weaknesses in web applications.
 
@@ -93,6 +87,6 @@ Burp Suite was used as an intercepting proxy to capture and analyze HTTP/HTTPS t
 
 ## Conclusion
 
-This project provided hands-on experience in web application security testing using Burp Suite and DVWA. Through traffic interception, request analysis, session inspection, and response evaluation, valuable insights were gained into web application behavior and security assessment methodologies. The project strengthened practical cybersecurity skills related to web security and application testing.
+This project provided hands-on experience in web application security testing using Burp Suite, DVWA and Altoro Mutual. Through traffic interception, request analysis, session inspection, and response evaluation, valuable insights were gained into web application behavior and security assessment methodologies. The project strengthened practical cybersecurity skills related to web security and application testing.
 
 ---
